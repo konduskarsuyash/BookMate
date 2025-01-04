@@ -1,0 +1,41 @@
+# dependencies
+node_modules/
+aora/node_modules/
+book_review_api/env/
+book_review_api/media/
+book_review_api/db.sqlite3/
+book_review_api/env/
+
+# Expo
+aora/.expo/
+aora/dist/
+aora/web-build/
+aora/expo-env.d.ts
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+aora/.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+backend/.env*
+
+# typescript
+*.tsbuildinfo
+aora/.vscode
